@@ -1,10 +1,14 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
+import Header from './components/Header'
+
+import Routes from './routes/AppRoutes'
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
+ 
   return (
-   <div>Hello</div>
+  //  <Header />
+  <Routes />
   )
 }
 
